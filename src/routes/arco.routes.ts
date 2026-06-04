@@ -52,7 +52,7 @@ router.patch('/status/:id', async (req: Request, res: Response): Promise<void> =
     // 3. Redactar plantilla HTML elegante e institucional
     const emailHtml = `
       <div style="font-family: sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #e2e8f0; border-radius: 12px;">
-        <h2 style="color: #0f172a;">Resolución de Solicitud de Derechos ARCO</h2>
+        <h2 style="color: #0f172a;">Resolución de Solicitud de Derechos ARCO+</h2>
         <p>Estimado(a) usuario(a),</p>
         <p>Le informamos que nuestro departamento legal ha procesado de manera formal su requerimiento sobre protección de datos personales.</p>
         
